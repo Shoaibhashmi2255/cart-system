@@ -1,0 +1,60 @@
+.imag {
+    background: url(../../../assets/Pictures/haryo-setyadi-acn5ERAeSb4-unsplash.jpg) top/cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+}
+.btn {
+    border: 1px ;
+    border-color: black;
+    background: white;
+    border-radius: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 10px 20px;
+}
+.btn:hover {
+    background: pink;
+    color: #fff;
+}
+.title h2::before{
+    position: absolute;
+    content: "";
+    background-color: pink;
+    height: 50px;
+    width: 4px;
+    left: -20px;
+    top: 50px;
+    transform: translateY(-50px);
+}
+.quality{
+    background-color: pink;
+}
+/* .cool{
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.076),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.109),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.135),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.161),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.194),
+  100px 100px 80px rgba(0, 0, 0, 0.27);
+} */
+.imagee {
+    background: url(../../../assets/Pictures/drop-the-label-movement-htMsuMd3npg-unsplash.jpg) top/cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.image {
+    background: url(../../../assets/Pictures/diah-ayu-mTw2fL9Pwh8-unsplash.jpg)top/cover;
+    background-position: center center;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+.product span{
+    top: 20px;
+    left: 20px;
+    width: 46px;
+    height: 46px;
+    background-color: pink;
+    border-radius: 50px;
+
+}

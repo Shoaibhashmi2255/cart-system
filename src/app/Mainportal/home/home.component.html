@@ -1,0 +1,102 @@
+<div class="header carousel slide" data-bs-ride="carousel">
+    <div class="class imag vh-100 d-flex  align-items-center carousel-inner" style="padding-top: 105px;" >
+      <div class="text-center carousel-item active">
+        <h2 class="text-capitalize text-white ">Best Collection</h2>
+      <h1 class="text-uppercase text-dark ">New Arrivals</h1>
+      <a type="button" class="btn mt-1 buy text-uppercase" s>Buy Now</a>
+      </div>
+      <div class="text-center carousel-item">
+        <h2 class="text-capitalize text-white ">Best Price & Offer</h2>
+      <h1 class="text-uppercase text-dark ">New Season</h1>
+      <a type="button" class="btn mt-1 buy text-uppercase">Buy Now</a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="header" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="header" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  <!-- collection -->
+  <section class="collection py-5">
+    <div class="container">
+      <div class="title text-center">
+        <h2 class="position-relative d-inline-block">New Collection</h2>
+      </div>
+      <div class="row">
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+          <button class="btn btn m-3" >All</button>
+          <button class="btn btn  m-3" >Best Sellers</button>
+          <button class="btn btn  m-3" >Featured</button>
+          <button class="btn btn  m-3 " >New Arrival</button>
+          </div>
+      </div>
+      <div class="product-list">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="product py-5">
+            <div class="image position-relative">
+              <span class="position-absolute  text-white d-flex align-items-center justify-content-center">sale</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <div class="container">
+    <div class="row my-5">
+      <div class="col col-xl-4 col-md-4 col-sm-6 my-sm-5 mx-sm-5" *ngFor="let _Data of MydataArray">
+        <div class="card" style="width: 18rem;">
+          <img [src]="_Data.Image1" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{_Data.Name}}</h5>
+            <p class="card-text">{{_Data.Description}}</p>
+            <button href="#" class="btn btn-outline-success w-100" (click)="Gotoviewproduct()(_Data._Id)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row py-3 my-1">
+      <div class="col-4 my-1 cool">
+        <h2>Fast Delivery<i class="fas fa-shipping-fast"></i></h2>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, et?
+      </div>
+      <div class="col-4 my-1 cool">
+        <h2>Refundable <i class="fab fa-cash-register"></i></h2>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, et?
+  
+      </div>
+      <div class="col-4 cool">
+        <h2>Cash On Delivery <i class="fa fa-money" aria-hidden="true"></i></h2>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, et?
+  
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-7 ">
+        <div class="imagee vh-100" style="padding-top: 105px;"></div>
+      </div>
+      <div class="col-5">
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quas quibusdam quam facilis dolores in iusto, omnis sed iure itaque amet neque aliquam tempora aspernatur fugiat. Sit, assumenda. Aut, sed!</h6>
+      </div>
+    </div>
+    <header class="py-5">
+      <p class="text-center text-uppercase text-dark fw-bold text-decoration-underline">Customer Satisfaction</p>
+      <span class="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, maxime itaque voluptate enim laborum aspernatur ad? Corrupti dicta accusamus quos aspernatur minima animi maiores libero, eius possimus rem commodi ipsum eveniet aliquam suscipit, earum deleniti porro aliquid omnis necessitatibus ipsam assumenda explicabo consectetur! Pariatur commodi dicta voluptate asperiores maiores officiis!</span>
+    </header>
+  </div>
+  
